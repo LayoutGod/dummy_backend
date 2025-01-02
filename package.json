@@ -1,0 +1,29 @@
+{
+  "name": "dummy_blog_server",
+  "version": "1.0.0",
+  "description": "A simple mock server for blog posts using JSON Server",
+  "scripts": {
+    "start": "json-server --watch db.json --port 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LayoutGod/dummy_blog_server.git"
+  },
+  "keywords": [
+    "json-server",
+    "mock-api",
+    "blog"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LayoutGod/dummy_blog_server/issues"
+  },
+  "homepage": "https://github.com/LayoutGod/dummy_blog_server#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
